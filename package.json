@@ -40,9 +40,9 @@
   },
   "keywords": [
     "fastify",
+    "fastify-plugin",
     "ws",
-    "websocket",
-    "fast-json"
+    "websocket"
   ],
   "author": "m03geek",
   "license": "MIT",
@@ -60,8 +60,8 @@
     "@types/node": "^10.12.10",
     "@types/ws": "^6.0.1",
     "eslint": "^5.6.0",
-    "eslint-config-google": "^0.11.0",
-    "fastify": "^1.11.2",
+    "eslint-config-google": "*",
+    "fastify": "^1.13.1",
     "jest": "^23.0.0",
     "replace": "^1.0.0",
     "standard-version": "^4.0.0",
@@ -76,5 +76,5 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "description": "Returns common info about fastify server. Could be used for healthchecks and status monitoring."
+  "description": "Fastify plugin that adds websockets support"
 }
