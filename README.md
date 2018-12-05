@@ -2,6 +2,13 @@
 
 Fastify plugin that creates websocket server on your fastify instance.
 
+[![NPM Version](https://img.shields.io/npm/v/fastify-websocket-server.svg)](https://www.npmjs.com/package/fastify-websocket-server)
+[![Downloads Count](https://img.shields.io/npm/dm/fastify-websocket-server.svg)](https://www.npmjs.com/package/fastify-websocket-server)
+[![Vunerabilities Count](https://snyk.io/test/npm/fastify-websocket-server/badge.svg)](https://www.npmjs.com/package/fastify-websocket-server)
+[![Build Status](https://gitlab.com/m03geek/fastify-websocket-server/badges/master/pipeline.svg)](https://gitlab.com/m03geek/fastify-websocket-server/commits/master)
+[![Coverage Status](https://gitlab.com/m03geek/fastify-websocket-server/badges/master/coverage.svg)](https://gitlab.com/m03geek/fastify-websocket-server/commits/master)
+[![License](https://img.shields.io/npm/l/fastify-websocket-server.svg)](https://gitlab.com/m03geek/fastify-websocket-server/blob/master/LICENSE)
+
 ## ToC
 
 - [fastify-websocket-server](#fastify-websocket-server)
@@ -11,6 +18,9 @@ Fastify plugin that creates websocket server on your fastify instance.
     - [Installation](#installation)
     - [Usage](#usage)
   - [Docs](#docs)
+  - [Roadmap](#roadmap)
+    - [Support for "typed" websockets](#support-for-%22typed%22-websockets)
+    - [Better support for JSON messages](#better-support-for-json-messages)
 
 ## Why not use `fastify-ws`?
 
@@ -47,3 +57,18 @@ fastify.listen(3000);
 ## Docs
 
 Docs available via [link](docs/README.md).
+
+## Roadmap
+
+Any ideas or PR welcome
+
+### Support for "typed" websockets
+
+Allow setting message types via query param or some header. This will set default message mode.
+
+### Better support for JSON messages
+
+The idea is if websocket message type is set to JSON to add following:
+
+- support JSON message validation against schema, just like Fastify does.
+- use `fast-json-stringify` module to serialize messages with schemas
