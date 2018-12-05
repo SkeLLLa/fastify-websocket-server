@@ -17,7 +17,9 @@ const fastifyWebsocketServer: Plugin<
     Object.assign({server: fastify.server}, options)
   );
   fastify.decorate('wss', pluginInsance);
-  fastify.addHook('onClose', (fastify, done) => fastify.wss.close(done));
+  fastify.addHook('onClose', (fastify, done) => {
+    fastify.wss.close(done);
+  });
   next();
 };
 
