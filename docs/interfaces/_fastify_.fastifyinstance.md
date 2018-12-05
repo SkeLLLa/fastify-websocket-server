@@ -26,7 +26,7 @@
 
 **● wss**: *[WsPlugin](../classes/wsplugin.md)*
 
-*Defined in index.ts:30*
+*Defined in index.ts:32*
 
 ___
 

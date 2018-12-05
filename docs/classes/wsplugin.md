@@ -78,7 +78,7 @@ ___
 
 *Inherited from Server.clients*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:191*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:191*
 
 ___
 <a id="options"></a>
@@ -89,7 +89,7 @@ ___
 
 *Inherited from Server.options*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:189*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:189*
 
 ___
 <a id="path"></a>
@@ -100,7 +100,7 @@ ___
 
 *Inherited from Server.path*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:190*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:190*
 
 ___
 <a id="defaultmaxlisteners"></a>
@@ -111,7 +111,7 @@ ___
 
 *Inherited from EventEmitter.defaultMaxListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1089*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1089*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 *Overrides EventEmitter.addListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:208*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:208*
 
 **Parameters:**
 
@@ -150,7 +150,7 @@ ___
 
 *Overrides EventEmitter.addListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:209*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:209*
 
 **Parameters:**
 
@@ -165,7 +165,7 @@ ___
 
 *Overrides EventEmitter.addListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:210*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:210*
 
 **Parameters:**
 
@@ -180,7 +180,7 @@ ___
 
 *Overrides EventEmitter.addListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:211*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:211*
 
 **Parameters:**
 
@@ -195,7 +195,7 @@ ___
 
 *Overrides EventEmitter.addListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:212*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:212*
 
 **Parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 *Inherited from Server.address*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:195*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:195*
 
 **Returns:**  `AddressInfo` &#124; `string`
 
@@ -228,7 +228,7 @@ ___
 
 *Inherited from Server.close*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:196*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:196*
 
 **Parameters:**
 
@@ -249,7 +249,7 @@ ___
 
 *Overrides EventEmitter.emit*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1103*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1103*
 
 **Parameters:**
 
@@ -271,7 +271,7 @@ ___
 
 *Overrides EventEmitter.eventNames*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1104*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1104*
 
 **Returns:** `Array`< `string` &#124; `symbol`>
 
@@ -286,7 +286,7 @@ ___
 
 *Overrides EventEmitter.getMaxListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1100*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1100*
 
 **Returns:** `number`
 
@@ -299,7 +299,7 @@ ___
 
 *Inherited from Server.handleUpgrade*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:197*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:197*
 
 **Parameters:**
 
@@ -323,7 +323,7 @@ ___
 
 *Overrides EventEmitter.listenerCount*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1105*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1105*
 
 **Parameters:**
 
@@ -344,7 +344,7 @@ ___
 
 *Overrides EventEmitter.listeners*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1101*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1101*
 
 **Parameters:**
 
@@ -365,7 +365,7 @@ ___
 
 *Overrides EventEmitter.off*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1097*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1097*
 
 **Parameters:**
 
@@ -395,7 +395,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:202*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:202*
 
 **Parameters:**
 
@@ -410,7 +410,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:203*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:203*
 
 **Parameters:**
 
@@ -425,7 +425,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:204*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:204*
 
 **Parameters:**
 
@@ -440,7 +440,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:205*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:205*
 
 **Parameters:**
 
@@ -455,7 +455,7 @@ ___
 
 *Overrides EventEmitter.on*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:206*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:206*
 
 **Parameters:**
 
@@ -477,7 +477,7 @@ ___
 
 *Overrides EventEmitter.once*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1093*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1093*
 
 **Parameters:**
 
@@ -499,7 +499,7 @@ ___
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1094*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1094*
 
 **Parameters:**
 
@@ -521,7 +521,7 @@ ___
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1095*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1095*
 
 **Parameters:**
 
@@ -543,7 +543,7 @@ ___
 
 *Overrides EventEmitter.rawListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1102*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1102*
 
 **Parameters:**
 
@@ -564,7 +564,7 @@ ___
 
 *Overrides EventEmitter.removeAllListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1098*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1098*
 
 **Parameters:**
 
@@ -585,7 +585,7 @@ ___
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1096*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1096*
 
 **Parameters:**
 
@@ -607,7 +607,7 @@ ___
 
 *Overrides EventEmitter.setMaxListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1099*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1099*
 
 **Parameters:**
 
@@ -626,7 +626,7 @@ ___
 
 *Inherited from Server.shouldHandle*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/ws/index.d.ts:199*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:199*
 
 **Parameters:**
 
@@ -645,7 +645,7 @@ ___
 
 *Inherited from EventEmitter.listenerCount*
 
-*Defined in /home/m03geek/dev/os/fastify-json-ws/node_modules/@types/node/index.d.ts:1088*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1088*
 
 *__deprecated__*: since v4.0.0
 
