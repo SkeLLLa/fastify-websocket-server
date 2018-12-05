@@ -35,7 +35,7 @@ node:10:
   only:
     - /^v\d+\.\d+\.\d+(-rc.\d+|)$/
   script:
-    - npm ci
+    - npm i
     - npm run unit
   coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
@@ -43,7 +43,7 @@ node:latest:
   stage: test
   image: node:latest
   script:
-    - npm ci
+    - npm i
     - npm run unit
   coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
@@ -51,7 +51,7 @@ npm:
   stage: publish
   script:
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
-    - npm ci
+    - npm i
     - npm run build
     - npm run pub
   environment:
