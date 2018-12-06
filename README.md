@@ -4,7 +4,7 @@ Fastify plugin that creates websocket server on your fastify instance.
 
 [![NPM Version](https://img.shields.io/npm/v/fastify-websocket-server.svg)](https://www.npmjs.com/package/fastify-websocket-server)
 [![Downloads Count](https://img.shields.io/npm/dm/fastify-websocket-server.svg)](https://www.npmjs.com/package/fastify-websocket-server)
-[![Vunerabilities Count](https://snyk.io/test/npm/fastify-websocket-server/badge.svg)](https://www.npmjs.com/package/fastify-websocket-server)
+[![Vunerabilities Count](https://snyk.io/test/npm/fastify-websocket-server/badge.svg)](https://snyk.io/test/npm/fastify-websocket-server/badge.svg)
 [![Build Status](https://gitlab.com/m03geek/fastify-websocket-server/badges/master/pipeline.svg)](https://gitlab.com/m03geek/fastify-websocket-server/commits/master)
 [![Coverage Status](https://gitlab.com/m03geek/fastify-websocket-server/badges/master/coverage.svg)](https://gitlab.com/m03geek/fastify-websocket-server/commits/master)
 [![License](https://img.shields.io/npm/l/fastify-websocket-server.svg)](https://gitlab.com/m03geek/fastify-websocket-server/blob/master/LICENSE)
