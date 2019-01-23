@@ -17,6 +17,7 @@
 ### Properties
 
 * [clients](wsplugin.md#clients)
+* [fastify](wsplugin.md#fastify)
 * [options](wsplugin.md#options)
 * [path](wsplugin.md#path)
 * [defaultMaxListeners](wsplugin.md#defaultmaxlisteners)
@@ -52,17 +53,18 @@
 
 ###  constructor
 
-⊕ **new WsPlugin**(options: *`ServerOptions`*): [WsPlugin](wsplugin.md)
+⊕ **new WsPlugin**(options: *`ServerOptions`*, fastify: *`FastifyInstance`*): [WsPlugin](wsplugin.md)
 
 *Overrides Server.__constructor*
 
-*Defined in plugin.ts:41*
+*Defined in plugin.ts:43*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
 | options | `ServerOptions` |
+| fastify | `FastifyInstance` |
 
 **Returns:** [WsPlugin](wsplugin.md)
 
@@ -79,6 +81,15 @@ ___
 *Inherited from Server.clients*
 
 *Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:191*
+
+___
+<a id="fastify"></a>
+
+###  fastify
+
+**● fastify**: *`FastifyInstance`*
+
+*Defined in plugin.ts:43*
 
 ___
 <a id="options"></a>
@@ -111,7 +122,7 @@ ___
 
 *Inherited from EventEmitter.defaultMaxListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1089*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1110*
 
 ___
 
@@ -129,7 +140,7 @@ ___
 
 ▸ **addListener**(event: *"listening"*, cb: *`function`*): `this`
 
-▸ **addListener**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **addListener**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from Server.addListener*
 
@@ -201,7 +212,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -211,20 +222,20 @@ ___
 
 ###  address
 
-▸ **address**():  `AddressInfo` &#124; `string`
+▸ **address**(): `AddressInfo` | `string`
 
 *Inherited from Server.address*
 
 *Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/ws/index.d.ts:195*
 
-**Returns:**  `AddressInfo` &#124; `string`
+**Returns:** `AddressInfo` | `string`
 
 ___
 <a id="close"></a>
 
 ###  close
 
-▸ **close**(cb?: * `undefined` &#124; `function`*): `void`
+▸ **close**(cb?: *`undefined` | `function`*): `void`
 
 *Inherited from Server.close*
 
@@ -234,7 +245,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| `Optional` cb |  `undefined` &#124; `function`|
+| `Optional` cb | `undefined` | `function` |
 
 **Returns:** `void`
 
@@ -243,19 +254,19 @@ ___
 
 ###  emit
 
-▸ **emit**(event: * `string` &#124; `symbol`*, ...args: *`any`[]*): `boolean`
+▸ **emit**(event: *`string` | `symbol`*, ...args: *`any`[]*): `boolean`
 
 *Inherited from EventEmitter.emit*
 
 *Overrides EventEmitter.emit*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1103*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1124*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | `Rest` args | `any`[] |
 
 **Returns:** `boolean`
@@ -265,15 +276,15 @@ ___
 
 ###  eventNames
 
-▸ **eventNames**(): `Array`< `string` &#124; `symbol`>
+▸ **eventNames**(): `Array`<`string` | `symbol`>
 
 *Inherited from EventEmitter.eventNames*
 
 *Overrides EventEmitter.eventNames*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1104*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1125*
 
-**Returns:** `Array`< `string` &#124; `symbol`>
+**Returns:** `Array`<`string` | `symbol`>
 
 ___
 <a id="getmaxlisteners"></a>
@@ -286,7 +297,7 @@ ___
 
 *Overrides EventEmitter.getMaxListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1100*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1121*
 
 **Returns:** `number`
 
@@ -317,19 +328,19 @@ ___
 
 ###  listenerCount
 
-▸ **listenerCount**(type: * `string` &#124; `symbol`*): `number`
+▸ **listenerCount**(type: *`string` | `symbol`*): `number`
 
 *Inherited from EventEmitter.listenerCount*
 
 *Overrides EventEmitter.listenerCount*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1105*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1126*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| type |  `string` &#124; `symbol`|
+| type | `string` | `symbol` |
 
 **Returns:** `number`
 
@@ -338,19 +349,19 @@ ___
 
 ###  listeners
 
-▸ **listeners**(event: * `string` &#124; `symbol`*): `Function`[]
+▸ **listeners**(event: *`string` | `symbol`*): `Function`[]
 
 *Inherited from EventEmitter.listeners*
 
 *Overrides EventEmitter.listeners*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1101*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1122*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 
 **Returns:** `Function`[]
 
@@ -359,19 +370,19 @@ ___
 
 ###  off
 
-▸ **off**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **off**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from EventEmitter.off*
 
 *Overrides EventEmitter.off*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1097*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1118*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -389,7 +400,7 @@ ___
 
 ▸ **on**(event: *"listening"*, cb: *`function`*): `this`
 
-▸ **on**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **on**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from Server.on*
 
@@ -461,7 +472,7 @@ ___
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -471,19 +482,19 @@ ___
 
 ###  once
 
-▸ **once**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **once**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from EventEmitter.once*
 
 *Overrides EventEmitter.once*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1093*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1114*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -493,19 +504,19 @@ ___
 
 ###  prependListener
 
-▸ **prependListener**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **prependListener**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from EventEmitter.prependListener*
 
 *Overrides EventEmitter.prependListener*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1094*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1115*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -515,19 +526,19 @@ ___
 
 ###  prependOnceListener
 
-▸ **prependOnceListener**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **prependOnceListener**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from EventEmitter.prependOnceListener*
 
 *Overrides EventEmitter.prependOnceListener*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1095*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1116*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -537,19 +548,19 @@ ___
 
 ###  rawListeners
 
-▸ **rawListeners**(event: * `string` &#124; `symbol`*): `Function`[]
+▸ **rawListeners**(event: *`string` | `symbol`*): `Function`[]
 
 *Inherited from EventEmitter.rawListeners*
 
 *Overrides EventEmitter.rawListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1102*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1123*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 
 **Returns:** `Function`[]
 
@@ -558,19 +569,19 @@ ___
 
 ###  removeAllListeners
 
-▸ **removeAllListeners**(event?: * `string` &#124; `symbol`*): `this`
+▸ **removeAllListeners**(event?: *`string` | `symbol`*): `this`
 
 *Inherited from EventEmitter.removeAllListeners*
 
 *Overrides EventEmitter.removeAllListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1098*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1119*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| `Optional` event |  `string` &#124; `symbol`|
+| `Optional` event | `string` | `symbol` |
 
 **Returns:** `this`
 
@@ -579,19 +590,19 @@ ___
 
 ###  removeListener
 
-▸ **removeListener**(event: * `string` &#124; `symbol`*, listener: *`function`*): `this`
+▸ **removeListener**(event: *`string` | `symbol`*, listener: *`function`*): `this`
 
 *Inherited from EventEmitter.removeListener*
 
 *Overrides EventEmitter.removeListener*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1096*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1117*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 | listener | `function` |
 
 **Returns:** `this`
@@ -607,7 +618,7 @@ ___
 
 *Overrides EventEmitter.setMaxListeners*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1099*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1120*
 
 **Parameters:**
 
@@ -641,11 +652,11 @@ ___
 
 ### `<Static>` listenerCount
 
-▸ **listenerCount**(emitter: *`EventEmitter`*, event: * `string` &#124; `symbol`*): `number`
+▸ **listenerCount**(emitter: *`EventEmitter`*, event: *`string` | `symbol`*): `number`
 
 *Inherited from EventEmitter.listenerCount*
 
-*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1088*
+*Defined in /home/m03geek/dev/os/fastify-websocket-server/node_modules/@types/node/index.d.ts:1109*
 
 *__deprecated__*: since v4.0.0
 
@@ -654,7 +665,7 @@ ___
 | Name | Type |
 | ------ | ------ |
 | emitter | `EventEmitter` |
-| event |  `string` &#124; `symbol`|
+| event | `string` | `symbol` |
 
 **Returns:** `number`
 

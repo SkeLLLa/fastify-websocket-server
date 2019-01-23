@@ -26,10 +26,9 @@
 
 ### `<Optional>` backlog
 
-**● backlog**: * `undefined` &#124; `number`
-*
+**● backlog**: *`undefined` | `number`*
 
-*Defined in plugin.ts:13*
+*Defined in plugin.ts:14*
 
 The maximum length of the queue of pending connections.
 
@@ -38,10 +37,9 @@ ___
 
 ### `<Optional>` clientTracking
 
-**● clientTracking**: * `undefined` &#124; `false` &#124; `true`
-*
+**● clientTracking**: *`undefined` | `false` | `true`*
 
-*Defined in plugin.ts:30*
+*Defined in plugin.ts:31*
 
 Specifies whether or not to track clients.
 
@@ -52,7 +50,7 @@ ___
 
 **● handleProtocols**: *`any`*
 
-*Defined in plugin.ts:21*
+*Defined in plugin.ts:22*
 
 A function which can be used to handle the WebSocket subprotocols. See description below.
 
@@ -61,10 +59,9 @@ ___
 
 ### `<Optional>` maxPayload
 
-**● maxPayload**: * `undefined` &#124; `number`
-*
+**● maxPayload**: *`undefined` | `number`*
 
-*Defined in plugin.ts:38*
+*Defined in plugin.ts:39*
 
 The maximum allowed message size in bytes.
 
@@ -73,10 +70,9 @@ ___
 
 ### `<Optional>` path
 
-**● path**: * `undefined` &#124; `string`
-*
+**● path**: *`undefined` | `string`*
 
-*Defined in plugin.ts:26*
+*Defined in plugin.ts:27*
 
 Accept only connections matching this path.
 *__default__*: /
@@ -86,10 +82,9 @@ ___
 
 ### `<Optional>` perMessageDeflate
 
-**● perMessageDeflate**: * `boolean` &#124; `PerMessageDeflateOptions`
-*
+**● perMessageDeflate**: *`boolean` | `PerMessageDeflateOptions`*
 
-*Defined in plugin.ts:34*
+*Defined in plugin.ts:35*
 
 Enable/disable permessage-deflate.
 
@@ -98,10 +93,9 @@ ___
 
 ### `<Optional>` verifyClient
 
-**● verifyClient**: * `VerifyClientCallbackAsync` &#124; `VerifyClientCallbackSync`
-*
+**● verifyClient**: *`VerifyClientCallbackAsync` | `VerifyClientCallbackSync`*
 
-*Defined in plugin.ts:17*
+*Defined in plugin.ts:18*
 
 A function which can be used to validate incoming connections.
 
