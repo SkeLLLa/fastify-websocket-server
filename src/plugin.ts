@@ -1,3 +1,4 @@
+import {FastifyInstance} from 'fastify';
 import {
   Server,
   ServerOptions,
@@ -39,7 +40,9 @@ export interface PluginOptions {
 }
 
 export class WsPlugin extends Server {
-  constructor(options: ServerOptions) {
+  public fastify: FastifyInstance;
+  constructor(options: ServerOptions, fastify: FastifyInstance) {
     super(options);
+    this.fastify = fastify;
   }
 }
